@@ -49,18 +49,18 @@ def download_and_save_image(image_url, save_path="downloaded_image.png"):
 
             if predicted_category == "plastic":
 
-                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence, it should be recycled"
+                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence"
                 # Print the prediction
                 st.success(result)
                 st.image(img, caption=None)
             elif predicted_category == "metal":
-                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence, it should be recycled"
+                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence"
                 # Print the prediction
                 st.success(result)
                 st.image(img, caption=None)
 
             elif predicted_category == "paper":
-                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence, it should be disposed"
+                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence"
                 # Print the prediction
                 st.success(result)
                 st.image(img, caption=None)
@@ -125,18 +125,18 @@ def insert():
             
 
             if predicted_category == "plastic":
-                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence, it should be recycled"
+                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence"
                 # Print the prediction
                 st.success(result)
                 st.image(img, caption=None)
             elif predicted_category == "metal":
-                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence, it should be recycled"
+                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence"
                 # Print the prediction
                 st.success(result)
                 st.image(img, caption=None)
            
             elif predicted_category == "paper":
-                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence, it should be disposed"
+                result=f"This Item is a {predicted_category} with {confidence:.2f}% confidence"
                 # Print the prediction
                 st.success(result)
                 st.image(img, caption=None)
